@@ -1,0 +1,243 @@
+Generative AI Roadmap 2024 from Sunny Savita
+
+Prerequisite:
+	Programming Language: Python
+		Here are some reasons why use Python:
+			* Community Support
+			* Libraries and Frameworks
+			* Flexibility and Productivity
+			* Data Analysis and Visualization
+		Topics to Learn- 
+			* Variables, Numbers, Strings 
+			* Lists, Dictionaries, Sets, tuples 
+			* If condition, for loop
+			* Functions, Lambda Functions 
+			* Modules (pip install)
+			* Read, Write files
+			* Exception handling 
+			* Classes, Objects 
+	
+	NoSQL DataBase: MongoDB or Cassandra DB
+		Reason why we should use Nosql Database: 
+			* Scalability and Flexibility
+			* Variety of Data Types
+			* Real-time Data Ingestion
+			* Distributed Computing
+			* Schema-less Design 
+
+Fundamentals:
+	Math and Statistics for Data Science
+	
+		Topics to Learn in Statistics:
+			* Descriptive statistics
+			* Inferential statistics
+			* Basic plot in statistics
+			* Measure of central tendency
+			* Types of distributions
+			* Central limit theorem
+			* Correlation and covariance
+			* Hypothesis testing
+
+		Topics to Learn in Mathematics: 
+			* Probability
+			* Linear Algebra 
+			* Calculus
+
+	Basic Deep Learning
+		* Artificial Neural Networks
+		* activation functions and Loss functions
+		* Backpropagation, optimizers
+		* Regularisation, Normalisation
+		* Convolutional  Neural Networks (CNNs)
+		* Recurrent Neural Networks (RNNs)
+		* Get hands-on experience with frameworks like TensorFlow or PyTorch
+
+	Basics of Natural Language Processing
+		* Text Preprocessing: Regex,Lowercasing,Tokenization,Removing Punctuation,Removing Stop Words,Stemming,Lemmatization
+		* Text Representation: Countvectorizer, TF-IDF, BOW,OHE
+		* Text Classification: Naive Bayes 
+		* Fundamental library: Spacy & NLTK
+
+		Word Embedding Techniques:
+			* Word2Vec
+			* GloVe
+			* ELMO
+			* Fast Text
+
+
+	Advance NLP Concepts
+		* Advance RNN like LSTM & GRU
+		* Encoder decoder & Encoder decoder with Attention Mechanism 
+		* Transformer architecture: Self attention mechanism, key, query, value(KQV), Layer Normalisation & Positional Encoding
+		* BERT: Contextual embedding and mask language modelling 
+		* GPT: Autoregressive Modelling
+
+	An important concept needs to be learnt. 
+		* Transfer Learning: learned from past work and applied it to the current challenge.
+		* Fine-Tuning of Model: Fine-tuning refers to the process of taking a pre-trained model and further training it on a  domain specific task.
+		* Different Sequence mapping: One to Many, Many to One, Many to Many
+
+Core Generative AI Models: LLMs
+
+	Milestone LLM Models
+	
+		* BERT: Bidirectional Encoder Representations from Transformers (BERT) was developed by Google
+
+		* GPT: GPT stands for "Generative Pre-trained Transformer".The model was developed by OpenAI 
+
+		* XLM: Cross-lingual Language Model Pretraining by Guillaume Lample, Alexis Conneau.
+
+		* T5: The Text-to-Text Transfer Transformer It was created by Google AI
+
+		* Megatron: Megatron is a large, powerful transformer developed by the Applied Deep Learning Research team at NVIDIA
+
+		* M2M-100: multilingual encoder-decoder (seq-to-seq) model researchers at Facebook
+
+	OpenAI LLM Models
+
+		* GPT-4 and GPT-4 Turbo: A set of models that improve on GPT-3.5 and can understand as well as generate natural language or code
+
+		* GPT-3.5: A set of models that improve on GPT-3 and can understand as well as generate natural language or code
+
+		* DALL·E: A model that can generate and edit images given a natural language prompt
+
+		* TTS: A set of models that can convert text into natural sounding spoken audio
+
+		* Whisper: A model that can convert audio into text
+
+	Google AI LLM models
+
+		* PaLM2
+		* Gemini-pro
+		* Gemini -pro-vision
+
+
+	Meta AI LLM Models 
+	
+		* LlaMA & LlaMA2
+
+	Open Source LLM Models
+	
+		* BLOOM
+		* Llama 2
+		* PaLM 
+		* Falcon 
+		* Claude
+		* MPT-30B
+		* Stablelm
+
+	Prompt Engineering
+
+		Type of Prompting:
+			* Zero shot prompting(Direct Prompting)
+			* Few shot prompting
+			* Chain-of-thoughts prompting
+
+		Prompt Creation: Length,context structure and specific instruction
+		Prompt Communities: Prompt Hero, FlowGPT, Snack Prompt
+
+Developed application powered by LLMs
+
+	Explore Generative Model APIs
+
+		* OpenAI API
+		* Hugging Face API
+		* Gemini API
+
+	Framework for Developing LLM application
+
+		* LangChain
+		* Chainlit
+		* Llama Index2
+
+	Vector Databases
+
+		* ChromaDB
+		* Waviet
+		* Pinecone
+		* OpenAI Faiss
+
+	Tools and Framework for Web-Application
+
+		* Streamlit 
+		* Gradio
+		* FastAPI
+		* Flask
+
+	Deployment of LLM model
+
+		* AWS 
+		* GCP
+		* Azure
+		* LangServe
+		* Hugging Face Spaces
+
+	Few Advance Topics:
+
+		* ChatGPT: Understanding of Chat Gpt Training and RLHF (Reinforcement learning through human feedback) Concept
+		* RAG :Retrieval-Augmented Generation (RAG) Systems
+		* PEFT :Parametric efficient fine tuning
+		* Adaptive Ranking: low rank adaptation(LoRa) and Quantized Low Rank Adaptation(Qlora)
+		* Evaluation of LLMs: Find evaluation metrics of results generated by LLM
+
+
+Projects and Practical Experience
+
+	* Hands-on Projects: Work on small projects to apply what you've learned.
+	Experiment with different datasets and model architectures.
+
+	* Kaggle Competitions and Open Source Contributions: Participate in Kaggle competitions related to generative tasks.Contribute to open-source projects in the generative AI field.
+
+Miscellaneous Topics
+
+	Platform To Explore: 
+
+		* LIDA (Automatic Generation of Visualisations and Infographics)
+		
+		* Slides ( AI Presentation Maker )
+		
+		* Content Creation (Jasper, Copy.ai, Anyword)
+		
+		* Grammar checkers and rewording tools (Grammarly, Wordtune, ProWritingAid)
+		
+		* Video creation (Descript, Wondershare Filmora, Runway)
+		
+		* Image generation (DALL·E 2, Midjourney)
+		
+		* Research (Genei, Aomni)
+
+
+	GANs: Variational Autoencoders (VAEs)
+	
+	Generative Adversarial Networks (GANs)
+
+	Stable Diffusion Models: Deliberate,Realistic Vision etc.
+
+	Training Environment: High end performance GPUs
+	(GCP, AWS, Azure), Data Crunch, PaperSpace, Google colab and google colab pro, Kaggle instance etc.
+
+	Continuous Learning: Keep up with the latest: news, trends, research paper and community
+
+Advice for Productive Learning:
+
+	* Define specific, achievable learning goals
+	* Consistent learning
+	* Don't forgot to Implementing your learning
+	* Experiment and Iterate
+	* Constructive feedback
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
